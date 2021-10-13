@@ -1,0 +1,54 @@
+/* IMPORTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* VARIABLES CSS */
+
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/* COLORS */
+
+:root {
+  --first-color: #46ff99;
+  --second-color: #0e2431;
+}
+
+/* FONTS */
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --big-fond-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-fond-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/* MARGES */
+
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/* Z-INDEX */
+
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
