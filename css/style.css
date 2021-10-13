@@ -14,6 +14,7 @@
 :root {
   --first-color: #46ff99;
   --second-color: #0e2431;
+  --third-color: #36c476;
 }
 
 /* FONTS */
@@ -88,6 +89,52 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* ARROW TO THE TOP */
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  background-color: var(--second-color);
+  border-radius: 0.25rem;
+  padding: 0.45rem;
+  opacity: 9;
+  transition: 0.4s;
+}
+
+.scrollup_icon {
+  color: var(--first-color);
+  font-size: 1.35rem;
+}
+
+.scrollup:hover {
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+/* SHOW THE ARROW SCROLL UP */
+
+.show-scroll {
+  bottom: 3rem;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--third-color);
 }
 
 /* CLASS */
