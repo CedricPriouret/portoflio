@@ -401,3 +401,120 @@ img {
   color: #ffffff;
   margin: 0 var(--mb-2);
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  /* SECTION */
+
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .section-title {
+    margin-bottom: var(--mb-6);
+  }
+
+  .section-title::after {
+    width: 80px;
+    top: 3rem;
+  }
+
+  /* NAV */
+
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .nav_list {
+    display: flex;
+    padding-top: 0;
+  }
+
+  .nav_item {
+    margin-left: var(--mb-6);
+    margin-bottom: 0;
+  }
+
+  .nav_toggle {
+    display: none;
+  }
+
+  .nav_link {
+    color: var(--second-color);
+  }
+
+  /* ACCUEIL */
+
+  .home {
+    height: 100vh;
+  }
+
+  .home_data {
+    align-self: flex-end;
+  }
+
+  .home_social {
+    padding: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+
+  .home_social-icon {
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+  }
+
+  .home_img {
+    width: 430px;
+    bottom: 15%;
+  }
+
+  /* A PROPOS */
+
+  .about_container,
+  .skills_container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+  }
+
+  .about_img img {
+    width: 300px;
+  }
+
+  /* PROJETS */
+
+  .work_container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  /* CONTACT */
+
+  .contact_form {
+    width: 360px;
+  }
+
+  .contact_container {
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home_img {
+    right: 10%;
+  }
+}
