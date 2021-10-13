@@ -1,4 +1,4 @@
-/* SHOW MENU burger */
+/* SHOW MENU BURGER */
 
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
