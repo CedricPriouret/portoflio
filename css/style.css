@@ -376,3 +376,28 @@ img {
   cursor: pointer;
   margin-left: auto;
 }
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--second-color);
+  color: #ffffff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+
+.footer_title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+
+.footer_social {
+  margin-bottom: var(--mb-4);
+}
+
+.footer_icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 var(--mb-2);
+}

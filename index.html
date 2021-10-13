@@ -12,6 +12,13 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Cédric Priouret - Développeur/Intégrateur Web et Web Mobile</title>
   </head>
@@ -22,19 +29,25 @@
     <header class="l-header">
       <nav class="nav bd-grid">
         <div>
-          <a href="#" class="nav_logo">Cédric</a>
+          <a href="#" class="nav_logo"><i class="fas fa-code"></i></a>
         </div>
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="#" class="nav_link active">Accueil</a>
+              <a href="#home" class="nav_link active">Accueil</a>
             </li>
-            <li class="nav_item"><a href="#" class="nav_link">A Propos</a></li>
             <li class="nav_item">
-              <a href="#" class="nav_link">Compétences</a>
+              <a href="#about" class="nav_link">A Propos</a>
             </li>
-            <li class="nav_item"><a href="#" class="nav_link">Projets</a></li>
-            <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Compétences</a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">Projets</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
           </ul>
         </div>
         <div class="nav_toggle" id="nav-toggle">
@@ -46,23 +59,28 @@
     <!-- MAIN -->
 
     <main class="l-main">
-
       <!-- ACCUEIL -->
-      
+
       <section class="home bd-grid" id="home">
         <div class="home_data">
-          <h1 class="home_title">Bonjour, <br>Je suis <span class="home_title-color">Cédric.</span><br> Développeur Web et Web Mobile.</h1>
+          <h1 class="home_title">
+            Bonjour, <br />Je suis <span class="home_title-color">Cédric.</span
+            ><br />
+            Développeur Web et Web Mobile.
+          </h1>
           <a href="#" class="button">Contact</a>
         </div>
 
         <div class="home_social">
-          <a href="#" class="home_social-icon"><i class='bx bxl-linkedin' ></i></a>
-          <a href="#" class="home_social-icon"><i class='bx bxl-github' ></i></a>
-          <a href="#" class="home_social-icon"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="#" class="home_social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="#" class="home_social-icon"><i class="bx bxl-github"></i></a>
+          <a href="#" class="home_social-icon"><i class="bx bxl-reddit"></i></a>
         </div>
 
         <div class="home_img">
-          <img src="./img/profil.png" alt="">
+          <img src="./img/profil.png" alt="" />
         </div>
       </section>
 
@@ -70,16 +88,20 @@
 
       <section class="about section" id="about">
         <h2 class="section-title">A Propos</h2>
-        
+
         <div class="about_container bd-grid">
           <div class="about_img">
-            <img src="./img/about.jpg" alt="">
+            <img src="./img/about.jpg" alt="" />
           </div>
 
           <div>
-
             <h2 class="about_subtitle">Je suis Cédric</h2>
-            <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem tenetur consequuntur alias, libero nulla neque magnam at, laboriosam qui consequatur cumque. Facilis similique deleniti dolore autem facere! Illo, veritatis?</p>
+            <p class="about_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem
+              tenetur consequuntur alias, libero nulla neque magnam at,
+              laboriosam qui consequatur cumque. Facilis similique deleniti
+              dolore autem facere! Illo, veritatis?
+            </p>
           </div>
         </div>
       </section>
@@ -92,86 +114,88 @@
         <div class="skills_container bd-grid">
           <div>
             <h2 class="skills_subtitle">Compétences Professionel</h2>
-            <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="skills_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-html5 skills_icon' ></i>
+                <i class="bx bxl-html5 skills_icon"></i>
                 <span class="skills__name">HTML5</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-css3 skills_icon' ></i>
+                <i class="bx bxl-css3 skills_icon"></i>
                 <span class="skills__name">CSS3</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-javascript skills_icon' ></i>
+                <i class="bx bxl-javascript skills_icon"></i>
                 <span class="skills__name">JavaScript</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxs-data skills_icon' ></i>
+                <i class="bx bxs-data skills_icon"></i>
                 <span class="skills__name">MySQL</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-php skills_icon' ></i>
+                <i class="bx bxl-php skills_icon"></i>
                 <span class="skills__name">PHP</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-wordpress skills_icon' ></i>
+                <i class="bx bxl-wordpress skills_icon"></i>
                 <span class="skills__name">WordPress</span>
               </div>
             </div>
 
             <div class="skills_data">
               <div class="skills_names">
-                <i class='bx bxl-figma skills_icon' ></i>
+                <i class="bx bxl-figma skills_icon"></i>
                 <span class="skills__name">Figma</span>
               </div>
             </div>
           </div>
           <div>
-            <img src="./img/skills.jpg" alt="" class="skills_img">
+            <img src="./img/skills.jpg" alt="" class="skills_img" />
           </div>
         </div>
       </section>
 
       <!-- PROJETS -->
 
-      <section class="work section" id="work">
+      <section class="work section" id="projects">
         <h2 class="section-title">Projets</h2>
 
         <div class="work_container bd-grid">
           <div class="work_img">
-            <img src="./img/project1.jpg" alt="">
+            <img src="./img/project1.jpg" alt="" />
           </div>
           <div class="work_img">
-            <img src="./img/project2.jpg" alt="">
+            <img src="./img/project2.jpg" alt="" />
           </div>
           <div class="work_img">
-            <img src="./img/project3.jpg" alt="">
+            <img src="./img/project3.jpg" alt="" />
           </div>
           <div class="work_img">
-            <img src="./img/project4.jpg" alt="">
+            <img src="./img/project4.jpg" alt="" />
           </div>
           <div class="work_img">
-            <img src="./img/project5.jpg" alt="">
+            <img src="./img/project5.jpg" alt="" />
           </div>
           <div class="work_img">
-            <img src="./img/project6.jpg" alt="">
+            <img src="./img/project6.jpg" alt="" />
           </div>
         </div>
       </section>
@@ -183,17 +207,37 @@
 
         <div class="contact_container bd-grid">
           <form action="" class="contact_form">
-          <input type="text" placeholder="Nom" class="contact_input">
-          <input type="text" placeholder="Prénom" class="contact_input">
-          <input type="mail" placeholder="Email" class="contact_input">
-          <textarea name="" id="" cols="" rows="10" class="contact_input"></textarea>
-          <input type="button" value="Envoyer" class="contact_button button">
+            <input type="text" placeholder="Nom" class="contact_input" />
+            <input type="text" placeholder="Prénom" class="contact_input" />
+            <input type="mail" placeholder="Email" class="contact_input" />
+            <textarea
+              name=""
+              id=""
+              cols=""
+              rows="10"
+              class="contact_input"
+            ></textarea>
+            <input
+              type="button"
+              value="Envoyer"
+              class="contact_button button"
+            />
           </form>
         </div>
       </section>
-
-      </main>
     </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <p class="footer_title">Cédric Priouret</p>
+      <div class="footer_social">
+        <a href="#" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer_icon"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="footer_icon"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+      <p>&#169; 2020 - 2021</p>
+    </footer>
 
     <!-- JS -->
     <script src="./js/main.js"></script>
