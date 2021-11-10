@@ -366,6 +366,7 @@ img {
   font-size: 2rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
+  width: 2rem;
 }
 
 .skills_names {
