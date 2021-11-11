@@ -39,6 +39,18 @@ function scrollUp() {
 }
 window.addEventListener("scroll", scrollUp);
 
+/* PROGRESS BAR */
+
+const body = document.querySelector("body");
+const scrollProgressBar = document.querySelector(".progress_bar");
+
+window.addEventListener("scroll", () => {
+  let scrollProgress =
+    window.scrollY / (body.clientHeight - window.innerHeight);
+  let scrollProgressPercent = Math.round(scrollProgress * 100);
+  scrollProgressBar.style.width = scrollProgressPercent + "%";
+});
+
 /* SCROLL REVEAL */
 
 const sr = ScrollReveal({

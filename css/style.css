@@ -91,6 +91,17 @@ img {
   display: block;
 }
 
+/* PROGRESS BAR */
+
+.progress_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #46ff99;
+  transition: width 0.25s ease-in-out;
+}
+
 /* ARROW TO THE TOP */
 
 .scrollup {
@@ -126,6 +137,7 @@ img {
 ::-webkit-scrollbar {
   width: 0.6rem;
   border-radius: 0.5rem;
+  background-color: #0e2431;
 }
 
 ::-webkit-scrollbar-thumb {
