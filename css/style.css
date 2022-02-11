@@ -437,6 +437,23 @@ img {
   margin-left: auto;
 }
 
+.contact_info {
+  margin-bottom: 30px;
+}
+
+.contact_info i {
+  margin: 10px;
+}
+
+.mail a {
+  text-decoration: none;
+  color: black;
+}
+
+.location {
+  margin-left: 8px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -566,6 +583,17 @@ img {
   .contact_container {
     justify-items: center;
   }
+  .contact_info {
+    margin-bottom: 30px;
+  }
+
+  .contact_info i {
+    margin: 10px;
+  }
+
+  .location {
+    margin-left: 8px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -576,5 +604,17 @@ img {
 
   .home_img {
     right: 10%;
+  }
+
+  .contact_info {
+    margin-bottom: 30px;
+  }
+
+  .contact_info i {
+    margin: 10px;
+  }
+
+  .location {
+    margin-left: 8px;
   }
 }
