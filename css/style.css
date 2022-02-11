@@ -450,6 +450,10 @@ img {
   color: black;
 }
 
+.iframe_google {
+  width: 100%;
+}
+
 .location {
   margin-left: 8px;
 }
