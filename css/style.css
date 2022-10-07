@@ -12,9 +12,9 @@
 /* COLORS */
 
 :root {
-  --first-color: #46ff99;
+  --first-color: #0795ff;
   --second-color: #0e2431;
-  --third-color: #36c476;
+  --third-color: #156cdd;
 }
 
 /* FONTS */
@@ -98,7 +98,7 @@ img {
   top: 0;
   left: 0;
   height: 5px;
-  background-color: #46ff99;
+  background-color: var(--first-color);
   transition: width 0.25s ease-in-out;
 }
 
