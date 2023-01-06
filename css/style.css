@@ -447,15 +447,11 @@ img {
 
 .mail a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 .iframe_google {
   width: 100%;
-}
-
-.location {
-  margin-left: 8px;
 }
 
 /* FOOTER */
@@ -586,9 +582,6 @@ img {
 
   .contact_container {
     justify-items: center;
-  }
-  .contact_info {
-    margin-bottom: 30px;
   }
 
   .contact_info i {
