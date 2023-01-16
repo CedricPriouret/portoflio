@@ -319,16 +319,36 @@ img {
 /* BUTTONS */
 
 .button {
-  display: inline-block;
+  /* display: inline-block;
   background-color: var(--first-color);
   color: #ffffff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: 0.5rem;
+  border-radius: 0.5rem; */
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 15px 45px;
+  background-color: var(--first-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 6px var(--third-color);
+  border-radius: 20px;
 }
 
 .button:hover {
-  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0 4px var(--first-color);
+  top: 2px;
+}
+
+.btn:active {
+  box-shadow: 0 0 var(--first-color);
+  top: 6px;
 }
 
 /* A PROPOS */
